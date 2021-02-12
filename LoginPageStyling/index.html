@@ -3,12 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyProject</title>
+    <title>Login Page with Effects</title>
         <link rel="stylesheet" href="style.css"> 
 
 </head>
 <body>
-    <h1>ProjectStarter</h1>
+    <div class="container">
+        <h1>Please Login</h1>
+        <form>
+            <div class="form-control">
+                <input type="text" name="Login" id="login" required> 
+                <label>Email</label>
+            </div>
+            <div class="form-control">
+                <input type="password" name="password" id="password" required> 
+                <label>Password</label>
+            </div>
+
+            <button class="btn">Login</button>
+
+            <p class="test">Don't have an account?
+                <a href="#">Register</a>
+            </p>
+
+        </form>
+    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
