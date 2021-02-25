@@ -8,7 +8,7 @@ const date = document.getElementById('date')
 const animated_bg = document.querySelectorAll('.animated-bg')
 const animated_bg_text = document.querySelectorAll('.animated-bg-text')
 
-setInterval(getData,2500)
+setTimeout(getData,2500);
 
 function getData() {
     header.innerHTML = `<img src="https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="" >`
